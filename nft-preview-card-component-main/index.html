@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;600&display=swap" rel="stylesheet">
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | NFT preview card component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      body {
+        font-family: 'Outfit', sans-serif;
+        background-color: hsl(216, 50%, 16%);
+        
+       
+        
+      }
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+      .card {
+        margin-left: auto;
+        margin-right: auto;
+        background-color: hsl(215, 56%, 20%);
+        border-radius: 20px;
+        color:white; 
+        font-size: 10px;
+        padding: 20px;
+        max-width: 250px;
+
+      }
+      .image {
+        width: 100%;
+        align-items: center;
+        border-radius: 10px;
+        
+      }
+      .ethText {
+        color:hsl(178, 100%, 50%);
+        font-size: 9px;
+        
+      }
+      .p{
+        color:hsl(215, 51%, 70%);
+        font-size: 16px;
+
+        
+      }
+      .p2{
+        color:hsl(215, 51%, 70%);
+        text-align: right;
+        display: flex;
+        align-items: center;
+
+      }
+      .p3{
+        text-align: center;
+      }
+      .cardDetails{
+        display:flex;
+        align-items:center;
+        justify-content: space-between;
+        padding-bottom: 16px;
+        border-bottom: 1px solid  hsl(215, 51%, 70%);
+      }
+      .imIcon{
+        width: 40px;
+        border: 1px solid white;
+        border-radius: 50%;
+        margin-right: 10px;
+        
+        
+      }
+      .h2{
+        display:flex;
+        align-items: center;
+        
+      }
+      .author{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+      }
+      .co{
+        color:hsl(215, 51%, 70%);
+        margin-right: 5px;
+      }
+     
+      
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <img class="image" src="images/image-equilibrium.jpg" />
+
+      <h1>Equilibrium #3429</h1>
+
+      <p class="p">Our Equilibrium collection promotes balance and calm.</p>
+      <div class="cardDetails">
+        <div class="ethText">
+        
+          <h2 class="h2"><img  src="images/icon-ethereum.svg"/> 0.041 ETH</h2>
+        </div>
+          <p  class="p2"> <img src="images/icon-clock.svg">3 days left</p>
+      </div>
+      <p class="author" ><img class="imIcon"src="images/image-avatar.png"> <span class="co">Creation of  </span> Jules Wyvern</p>
+      </div>
+    </div>
+
+    <!-- <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </div> -->
+  </body>
+</html>
